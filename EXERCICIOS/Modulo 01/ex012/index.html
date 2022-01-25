@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Midias em HTML5</title>
+</head>
+<body>
+    <H1>Imagens dinamicas</H1>
+    <p>Tente abrir esse site em vários dispositivos diferentes
+        ou simplismente aumente e diminua o tamanho do seu navegador.
+    </p>
+    <picture>
+        <source media="(max-width: 750px )" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width:1050px )" srcset="imagens/foto-m.png" type="image/png">
+        <img src="Imagens/foto-g.png" alt="imagem flexivel">
+
+    </picture>
+    <p>teste feito por mim</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/paisagem-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/paisagem-m.png" type="image/png">
+        <img src="Imagens/paisagem-g.png" alt="paisagem flexivel">
+
+    </picture>
+
+    <h1>Reproduzir audios</h1>
+    <p>Vamos aprender a reproduzir audios em html5</p>
+    <audio src="midia/musicayoutube.mp3" controls autoplay> </audio>
+    <!--Só esse funcionou no meu gloogle chrome-->
+   
+    <audio >
+        <source src="midia/musicayoutube.mp3" type="audio/mpeg">
+        <source src="midia/musicayoutube.mp3" type="audio/ogg">
+        <source src="midia/musicayoutube.mp3" type="audio/wav">
+    </audio>
+    <!--Para outros navegadores pode ser q so funcione assim-->
+</body>
+</html>

@@ -1,0 +1,19 @@
+body{
+   background-color: rgb(236, 161, 190);
+}
+h1{
+    color: rgb(10, 9, 9);
+    
+}
+h2{
+    color: rgb(7, 7, 7);
+}
+p{
+    color: rgb(48, 44, 40);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+ul{
+    color: rgb(7, 7, 7);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
